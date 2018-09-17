@@ -4,12 +4,18 @@ With this software you will be able to build your own circuits and test them. Yo
 
 ![](https://provider.ddnss.de/img/Uc77gsfH?raw=1 "Graphical user interface")
 
+## Download
+
+The binaries are available there:
+
+[![Download Digital Logic Simulator (DiLoSim)](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/digital-logic-simulator/files/latest/download)
+
 ## Features
 
 * Action history, which can undo changes
 * Save and load files from file system
 * Copy multiple items to the clipboard and paste them elsewhere
-* Magnet function (Dock elements together)
+* Magnet function (Docking of elements)
 * Zoom function
 
 **Included gates:**
@@ -34,11 +40,6 @@ With this software you will be able to build your own circuits and test them. Yo
 * Lamp / LED
 * 7 segment display
 * BCD decoder
-
-## Download
-
-The binaries are available there:
-[Download latest release](https://sourceforge.net/projects/digital-logic-simulator/)
 
 ## Run on Windows:
 
@@ -69,7 +70,7 @@ java -jar file.jar
 
 => If you find any bugs you can create an issue.
 
-## UML
+## UML - Unified Modeling Language
 
 The graphics have been simplified for better understanding.
 
@@ -89,5 +90,5 @@ The software was written by me from scratch. Graphical designs by Fabian Mößne
 ## License
 
 This software is licensed under the [MIT license](https://opensource.org/licenses/MIT).
-The font "Liberation Mono" which is used to print the gui has its own license: [View font license](https://www.fontsquirrel.com/license/liberation-mono)
+The font "Liberation Mono" which is used to print the GUI has its own license: [View font license](https://www.fontsquirrel.com/license/liberation-mono)
 
