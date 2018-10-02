@@ -1,6 +1,6 @@
 package de.crusader.controls.mainmenu.options.file;
 
-import static de.crusader.helpers.StringUtils.removeExtension;
+import static de.crusader.helpers.FileUtils.removeExtension;
 
 import java.io.File;
 

@@ -1,6 +1,6 @@
 package de.crusader.textures;
 
-import static de.crusader.helpers.StringUtils.removeExtension;
+import static de.crusader.helpers.FileUtils.removeExtension;
 
 import java.awt.image.BufferedImage;
 import java.io.BufferedInputStream;

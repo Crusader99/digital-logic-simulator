@@ -14,6 +14,7 @@ import de.crusader.logic.system.IInterface;
 import de.crusader.logic.system.IPort;
 import sun.reflect.ReflectionFactory;
 
+@SuppressWarnings("restriction")
 public class CloneSystem {
 	// Original objects which have to be cloned
 	private final List<IWorkObject> objects;
@@ -146,7 +147,6 @@ public class CloneSystem {
 	 * 
 	 * @return - Returns the constructor or null, if there an error occurs
 	 */
-	@SuppressWarnings("restriction")
 	private static Constructor<?> getConstructor(Class<?> cls) {
 		try {
 			return cls.getConstructor();
